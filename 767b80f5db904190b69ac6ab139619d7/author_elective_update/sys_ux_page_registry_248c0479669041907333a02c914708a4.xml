@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>a48c0479989041909cb4a403a98e05a2</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <path>employbridge-candidate-staffing-workspace</path>
+        <root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-08 17:22:47</sys_created_on>
+        <sys_id>248c0479669041907333a02c914708a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EmployBridge Candidate Staffing Workspace</sys_name>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>sys_ux_page_registry_248c0479669041907333a02c914708a4</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-08 17:22:47</sys_updated_on>
+        <title>EmployBridge Candidate Staffing Workspace</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</application>
+        <file_path/>
+        <instance_id>1010dfefdb9e1890f37acac5059619df</instance_id>
+        <instance_name>jbelote9demo</instance_name>
+        <name>sys_ux_page_registry_248c0479669041907333a02c914708a4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>a48c0479989041909cb4a403a98e05a2</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><path>employbridge-candidate-staffing-workspace</path><root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-12-08 17:22:47</sys_created_on><sys_id>248c0479669041907333a02c914708a4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>EmployBridge Candidate Staffing Workspace</sys_name><sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package><sys_policy/><sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope><sys_update_name>sys_ux_page_registry_248c0479669041907333a02c914708a4</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-12-08 17:22:47</sys_updated_on><title>EmployBridge Candidate Staffing Workspace</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>1378205764</payload_hash>
+        <record_name>EmployBridge Candidate Staffing Workspace</record_name>
+        <reverted_from/>
+        <source>20e12a30db000110520c0bd3e29619e5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-11-23 15:25:48</sys_created_on>
+        <sys_id>f223e627db500d90520c0bd3e2961944</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17d4d6730600000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>b223e6276f500d9085f6a9ebb0401a44</update_guid>
+        <update_guid_history>b223e6276f500d9085f6a9ebb0401a44:1378205764</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-14 14:50:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>13373804b938428f84555438f9f3a389</sys_id>
+        <sys_metadata>248c0479669041907333a02c914708a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EmployBridge Candidate Staffing Workspace</sys_name>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_scope_delete display_value="">2731f423885d48f08be1fbf510fd0440</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_248c0479669041907333a02c914708a4</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_248c0479669041907333a02c914708a4">f223e627db500d90520c0bd3e2961944</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-14 14:50:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

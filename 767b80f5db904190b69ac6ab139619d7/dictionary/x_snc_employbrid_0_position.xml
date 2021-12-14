@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Position" max_length="40" name="x_snc_employbrid_0_position" type="collection">
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Years of Experience" max_length="100" name="years_of_experience" type="string"/>
+    </element>
+</database>

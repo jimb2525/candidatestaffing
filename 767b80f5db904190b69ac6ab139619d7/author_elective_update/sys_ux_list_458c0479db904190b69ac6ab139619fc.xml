@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="DELETE">
+        <active>true</active>
+        <category display_value="Candidate Application">858c0479db904190b69ac6ab139619e7</category>
+        <columns>number,priority,state,assigned_to,short_description,sys_class_name</columns>
+        <condition table="x_snc_employbrid_0_candidate_application">active=true^assigned_toISEMPTY^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <configuration display_value="EmployBridge Candidate Staffing Workspace_menu_config">058c0479db904190b69ac6ab139619e5</configuration>
+        <groups/>
+        <list_attributes/>
+        <order>30</order>
+        <roles/>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-08 17:22:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>458c0479db904190b69ac6ab139619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unassigned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>sys_ux_list_458c0479db904190b69ac6ab139619fc</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-08 17:22:49</sys_updated_on>
+        <table>x_snc_employbrid_0_candidate_application</table>
+        <title>Unassigned</title>
+    </sys_ux_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</application>
+        <file_path/>
+        <instance_id>1010dfefdb9e1890f37acac5059619df</instance_id>
+        <instance_name>jbelote9demo</instance_name>
+        <name>sys_ux_list_458c0479db904190b69ac6ab139619fc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list"><sys_ux_list action="INSERT_OR_UPDATE"><active>true</active><category display_value="Candidate Application">858c0479db904190b69ac6ab139619e7</category><columns>number,priority,state,assigned_to,short_description,sys_class_name</columns><condition table="x_snc_employbrid_0_candidate_application">active=true^assigned_toISEMPTY^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><configuration display_value="EmployBridge Candidate Staffing Workspace_menu_config">058c0479db904190b69ac6ab139619e5</configuration><groups/><list_attributes/><order>30</order><roles/><sys_class_name>sys_ux_list</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-12-08 17:22:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>458c0479db904190b69ac6ab139619fc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Unassigned</sys_name><sys_overrides/><sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package><sys_policy/><sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope><sys_update_name>sys_ux_list_458c0479db904190b69ac6ab139619fc</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-12-08 17:22:49</sys_updated_on><table>x_snc_employbrid_0_candidate_application</table><title>Unassigned</title></sys_ux_list></record_update>]]></payload>
+        <payload_hash>-1247311576</payload_hash>
+        <record_name>Unassigned</record_name>
+        <reverted_from/>
+        <source>3a7b80f5db904190b69ac6ab139619da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-08 17:22:49</sys_created_on>
+        <sys_id>458c0479db904190b69ac6ab139619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d9b11b77d0000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-08 17:22:49</sys_updated_on>
+        <type>UX List</type>
+        <update_guid>4d8c0479db904190eae1debb14c1c2fd</update_guid>
+        <update_guid_history>4d8c0479db904190eae1debb14c1c2fd:-1247311576</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-14 14:50:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list">sys_ux_list</sys_db_object>
+        <sys_id>65e8531497a54864af2635c90de6a710</sys_id>
+        <sys_metadata>458c0479db904190b69ac6ab139619fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unassigned</sys_name>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_scope_delete display_value="">2731f423885d48f08be1fbf510fd0440</sys_scope_delete>
+        <sys_update_name>sys_ux_list_458c0479db904190b69ac6ab139619fc</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_458c0479db904190b69ac6ab139619fc">458c0479db904190b69ac6ab139619fe</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-14 14:50:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

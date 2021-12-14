@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Interview Scheduling</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Interview Scheduling</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">10af24f4db103010b69ac6ab139619c6</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-08 17:19:04</sys_created_on>
+        <sys_id>c2ab88f5db904190b69ac6ab13961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interview Scheduling</sys_name>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>sys_wizard_answer_c2ab88f5db904190b69ac6ab13961922</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-08 17:19:04</sys_updated_on>
+        <table/>
+        <target_url>x_snc_employbrid_0_interview_scheduling.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</application>
+        <file_path/>
+        <instance_id>1010dfefdb9e1890f37acac5059619df</instance_id>
+        <instance_name>jbelote9demo</instance_name>
+        <name>sys_wizard_answer_c2ab88f5db904190b69ac6ab13961922</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Interview Scheduling</answer><button_label/><dependent_value/><element/><name>Interview Scheduling</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">10af24f4db103010b69ac6ab139619c6</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-12-08 17:19:04</sys_created_on><sys_id>c2ab88f5db904190b69ac6ab13961922</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Interview Scheduling</sys_name><sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package><sys_policy/><sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope><sys_update_name>sys_wizard_answer_c2ab88f5db904190b69ac6ab13961922</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-12-08 17:19:04</sys_updated_on><table/><target_url>x_snc_employbrid_0_interview_scheduling.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>2109128501</payload_hash>
+        <record_name>Interview Scheduling</record_name>
+        <reverted_from/>
+        <source>20e12a30db000110520c0bd3e29619e5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-11-23 15:25:48</sys_created_on>
+        <sys_id>f1332e27db500d90520c0bd3e2961912</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17d4d6730600000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>b1332e27e5500d9029da88438050c712</update_guid>
+        <update_guid_history>b1332e27e5500d9029da88438050c712:2109128501</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-14 14:50:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>07b4c2f64b4d436889345afcd3118840</sys_id>
+        <sys_metadata>c2ab88f5db904190b69ac6ab13961922</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interview Scheduling</sys_name>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_parent display_value="Task">10af24f4db103010b69ac6ab139619c6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_scope_delete display_value="">2731f423885d48f08be1fbf510fd0440</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_c2ab88f5db904190b69ac6ab13961922</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_c2ab88f5db904190b69ac6ab13961922">f1332e27db500d90520c0bd3e2961912</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-14 14:50:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <label>EmployBridge Recruiting</label>
+        <name>employbridge_recruiting</name>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-08 17:51:21</sys_created_on>
+        <sys_id>5b035c75dbd04190b69ac6ab139619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EmployBridge Recruiting</sys_name>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>sys_pd_process_definition_5b035c75dbd04190b69ac6ab139619a9</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-08 17:51:22</sys_updated_on>
+    </sys_pd_process_definition>
+    <sys_pd_process_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <label>EmployBridge Recruiting</label>
+        <name>employbridge_recruiting</name>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-08 17:51:21</sys_created_on>
+        <sys_id>5b035c75dbd04190b69ac6ab139619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EmployBridge Recruiting</sys_name>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>sys_pd_process_definition_5b035c75dbd04190b69ac6ab139619a9</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-08 17:51:22</sys_updated_on>
+    </sys_pd_process_definition>
+    <sys_pd_trigger_instance action="DELETE" query="sys_id=530354b5dbd04190b69ac6ab1396191e^sys_idNOT IN530354b5dbd04190b69ac6ab1396191e"/>
+    <sys_pd_trigger_instance action="DELETE">
+        <label/>
+        <name/>
+        <process_definition display_value="EmployBridge Recruiting">5b035c75dbd04190b69ac6ab139619a9</process_definition>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-08 17:51:22</sys_created_on>
+        <sys_id>530354b5dbd04190b69ac6ab1396191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-08 17:51:22</sys_updated_on>
+        <trigger_definition/>
+        <trigger_inputs/>
+        <trigger_type display_value="Record Create or Update">789911170f1200108c87f4f0ff767e27</trigger_type>
+    </sys_pd_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=530354b5dbd04190b69ac6ab1396191e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</application>
+        <file_path/>
+        <instance_id>1010dfefdb9e1890f37acac5059619df</instance_id>
+        <instance_name>jbelote9demo</instance_name>
+        <name>sys_pd_process_definition_5b035c75dbd04190b69ac6ab139619a9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition"><sys_pd_process_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><description/><label>EmployBridge Recruiting</label><name>employbridge_recruiting</name><snapshot/><status>draft</status><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-12-08 17:51:21</sys_created_on><sys_id>5b035c75dbd04190b69ac6ab139619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>EmployBridge Recruiting</sys_name><sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package><sys_policy/><sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope><sys_update_name>sys_pd_process_definition_5b035c75dbd04190b69ac6ab139619a9</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-12-08 17:51:22</sys_updated_on></sys_pd_process_definition><sys_pd_process_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><description/><label>EmployBridge Recruiting</label><name>employbridge_recruiting</name><snapshot/><status>draft</status><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-12-08 17:51:21</sys_created_on><sys_id>5b035c75dbd04190b69ac6ab139619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>EmployBridge Recruiting</sys_name><sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package><sys_policy/><sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope><sys_update_name>sys_pd_process_definition_5b035c75dbd04190b69ac6ab139619a9</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-12-08 17:51:22</sys_updated_on></sys_pd_process_definition><sys_pd_trigger_instance action="delete_multiple" query="sys_id=530354b5dbd04190b69ac6ab1396191e^sys_idNOT IN530354b5dbd04190b69ac6ab1396191e"/><sys_pd_trigger_instance action="INSERT_OR_UPDATE"><label/><name/><process_definition display_value="EmployBridge Recruiting">5b035c75dbd04190b69ac6ab139619a9</process_definition><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-12-08 17:51:22</sys_created_on><sys_id>530354b5dbd04190b69ac6ab1396191e</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-12-08 17:51:22</sys_updated_on><trigger_definition/><trigger_inputs/><trigger_type display_value="Record Create or Update">789911170f1200108c87f4f0ff767e27</trigger_type></sys_pd_trigger_instance><sys_variable_value action="delete_multiple" query="document_key=530354b5dbd04190b69ac6ab1396191e"/></record_update>]]></payload>
+        <payload_hash>-233708354</payload_hash>
+        <record_name>EmployBridge Recruiting</record_name>
+        <reverted_from/>
+        <source>3a7b80f5db904190b69ac6ab139619da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-08 17:51:22</sys_created_on>
+        <sys_id>1b0354b5dbd04190b69ac6ab13961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d9b2bdb740000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-08 17:51:22</sys_updated_on>
+        <type>Process Definitions</type>
+        <update_guid>df0354b515d041903f9916f47f03df23</update_guid>
+        <update_guid_history>df0354b515d041903f9916f47f03df23:-233708354,930354b5b9d041902122e4f729238c1c:-496671193</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-08 17:51:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_pd_process_definition">sys_pd_process_definition</sys_db_object>
+        <sys_id>0f1d25bbde79475a81c31d383927e2c4</sys_id>
+        <sys_metadata>5b035c75dbd04190b69ac6ab139619a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EmployBridge Recruiting</sys_name>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_scope_delete display_value="">2731f423885d48f08be1fbf510fd0440</sys_scope_delete>
+        <sys_update_name>sys_pd_process_definition_5b035c75dbd04190b69ac6ab139619a9</sys_update_name>
+        <sys_update_version display_value="sys_pd_process_definition_5b035c75dbd04190b69ac6ab139619a9">1b0354b5dbd04190b69ac6ab13961924</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-08 17:51:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Recruit" max_length="40" name="x_snc_employbrid_0_recruit" type="collection">
+        <element label="Client" max_length="32" name="client" reference="x_snc_employbrid_0_client" type="reference"/>
+        <element label="Job Requisition" max_length="32" name="job_requisition" reference="x_snc_employbrid_0_job_requisition" type="reference"/>
+    </element>
+</database>

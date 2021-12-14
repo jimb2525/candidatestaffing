@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>L1 Configuration	</description>
+        <name>chrome_toolbar</name>
+        <page display_value="">248c0479669041907333a02c914708a4</page>
+        <required_translations>[{"message":"List","comment":""},{"message":"Home","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-08 17:22:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>e88c0479c9904190b1b359b81e9d07a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>sys_ux_page_property_e88c0479c9904190b1b359b81e9d07a4</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-08 17:22:47</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_employbrid_0.248c0479669041907333a02c914708a4.root.chrome_toolbar</unique_name>
+        <value>[
+   {
+      "id":"home",
+      "label":"Home",
+      "icon":"home-outline",
+      "viewportInfo":{
+         
+      },
+      "routeInfo":{
+         "route":"home"
+      },
+      "group":"top",
+      "badge":{
+         
+      },
+      "presence":{
+         
+      },
+      "availability":{
+         
+      }
+   },
+   {
+      "id":"list",
+      "label":"List",
+      "icon":"list-outline",
+      "viewportInfo":{
+         
+      },
+      "routeInfo":{
+         "route":"list"
+      },
+      "group":"top",
+      "badge":{
+         
+      },
+      "presence":{
+         
+      },
+      "availability":{
+         
+      }
+   }
+]</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</application>
+        <file_path/>
+        <instance_id>1010dfefdb9e1890f37acac5059619df</instance_id>
+        <instance_name>jbelote9demo</instance_name>
+        <name>sys_ux_page_property_e88c0479c9904190b1b359b81e9d07a4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>L1 Configuration	</description><name>chrome_toolbar</name><page display_value="">248c0479669041907333a02c914708a4</page><required_translations>[{"message":"List","comment":""},{"message":"Home","comment":""}]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-12-08 17:22:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>e88c0479c9904190b1b359b81e9d07a4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_toolbar</sys_name><sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package><sys_policy/><sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope><sys_update_name>sys_ux_page_property_e88c0479c9904190b1b359b81e9d07a4</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-12-08 17:22:47</sys_updated_on><type>json</type><unique_name>x_snc_employbrid_0.248c0479669041907333a02c914708a4.root.chrome_toolbar</unique_name><value>[
+   {
+      "id":"home",
+      "label":"Home",
+      "icon":"home-outline",
+      "viewportInfo":{
+         
+      },
+      "routeInfo":{
+         "route":"home"
+      },
+      "group":"top",
+      "badge":{
+         
+      },
+      "presence":{
+         
+      },
+      "availability":{
+         
+      }
+   },
+   {
+      "id":"list",
+      "label":"List",
+      "icon":"list-outline",
+      "viewportInfo":{
+         
+      },
+      "routeInfo":{
+         "route":"list"
+      },
+      "group":"top",
+      "badge":{
+         
+      },
+      "presence":{
+         
+      },
+      "availability":{
+         
+      }
+   }
+]</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-61361483</payload_hash>
+        <record_name>chrome_toolbar</record_name>
+        <reverted_from/>
+        <source>20e12a30db000110520c0bd3e29619e5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-11-23 15:25:48</sys_created_on>
+        <sys_id>47232a27db500d90520c0bd3e296196a</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17d4d6730600000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>07232a27fb500d909b7f223f31da096a</update_guid>
+        <update_guid_history>07232a27fb500d909b7f223f31da096a:-61361483</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-14 14:50:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>50d0b31652ea4ce9ba2f53f80fcb4c09</sys_id>
+        <sys_metadata>e88c0479c9904190b1b359b81e9d07a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_scope_delete display_value="">2731f423885d48f08be1fbf510fd0440</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_e88c0479c9904190b1b359b81e9d07a4</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_e88c0479c9904190b1b359b81e9d07a4">47232a27db500d90520c0bd3e296196a</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-14 14:50:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Candidate" max_length="40" name="x_snc_employbrid_0_candidate" type="collection">
+        <element choice="3" label="Education" max_length="40" name="education" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High School" sequence="10" value="high_school"/>
+                <element inactive_on_update="false" label="Some College" sequence="20" value="some_college"/>
+                <element inactive_on_update="false" label="Bachelors Degree" sequence="30" value="bachelors_degree"/>
+                <element inactive_on_update="false" label="Masters Degree" sequence="40" value="masters_degree"/>
+                <element inactive_on_update="false" label="Associates Degree" sequence="50" value="associates_degree"/>
+            </choice>
+        </element>
+        <element label="Email Address" max_length="40" name="email_address" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element choice="1" label="Job Preference" max_length="40" name="job_preference" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cashier" sequence="10" value="cashier"/>
+                <element inactive_on_update="false" label="Clothing" sequence="20" value="clothing"/>
+                <element inactive_on_update="false" label="Team Lead" sequence="30" value="team_lead"/>
+            </choice>
+        </element>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;var full_name = current.first_name + ' ' + current.last_name;&#13;&#10;&#9;return full_name;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Name" max_length="200" name="name" read_only="true" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Shift Preference" max_length="40" name="shift_preference" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="First Shift" sequence="10" value="first_shift"/>
+                <element inactive_on_update="false" label="Second Shift" sequence="20" value="second_shift"/>
+                <element inactive_on_update="false" label="Third Shift" sequence="30" value="third_shift"/>
+            </choice>
+        </element>
+        <element label="Years of Experience" max_length="40" name="years_of_experience" type="integer"/>
+    </element>
+</database>

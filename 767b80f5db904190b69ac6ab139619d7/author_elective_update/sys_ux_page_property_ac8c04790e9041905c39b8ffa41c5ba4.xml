@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Header Configuration</description>
+        <name>chrome_header</name>
+        <page display_value="EmployBridge Candidate Staffing Workspace">248c0479669041907333a02c914708a4</page>
+        <required_translations>[{"message":"Display Preferences","comment":""},{"message":"Show sidebar","comment":""},{"message":"Show ribbon","comment":""},{"message":"Notifications","comment":""},{"message":"Show Banners","comment":""},{"message":"Logout","comment":""},{"message":"Show Badge Count","comment":""},{"message":"Configure workspace","comment":""},{"message":"UserMenu","comment":""},{"message":"Wrap list text","comment":""},{"message":"Settings","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-08 17:22:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>ac8c04790e9041905c39b8ffa41c5ba4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>sys_ux_page_property_ac8c04790e9041905c39b8ffa41c5ba4</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-08 17:22:50</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_employbrid_0.248c0479669041907333a02c914708a4.root.chrome_header</unique_name>
+        <value>{
+    "privatePage": {
+        "notificationsEnabled": true,
+        "searchEnabled": true,
+        "userPrefsEnabled": true,
+        "contextualConfigurationItems": {
+            "_roles": [
+                "workspace_admin"
+            ],
+            "enabled": true,
+            "position": 150
+        },
+        "globalTools": {
+            "collapsingMenuId": 0,
+            "primaryItems": [{
+                "label": "UserMenu",
+                "icon": "user",
+                "type": "menu",
+                "primaryDisplay": "icon",
+                "value": {
+                    "children": [{
+                            "_roles": [
+                                "workspace_admin"
+                            ],
+                            "label": {
+                                "message": "Configure workspace",
+                                "translatable": true
+                            },
+                            "type": "navigation",
+                            "position": 100,
+                            "primaryDisplay": "none",
+                            "value": {
+                                "type": "external",
+                                "opensWindow": "true",
+                                "value": {
+                                    "href": "/nav_to.do?uri=/sys_ux_app_config.do?sys_id=a48c0479989041909cb4a403a98e05a2"
+                                }
+                            }
+                        },
+                        {
+                            "label": {
+                                "message": "Settings",
+                                "translatable": true
+                            },
+                            "type": "menu",
+                            "position": 50,
+                            "value": {
+                                "children": [{
+                                        "label": {
+                                            "message": "Display Preferences",
+                                            "translatable": true
+                                        },
+                                        "type": "divider"
+                                    },
+                                    {
+                                        "label": {
+                                            "message": "Show ribbon",
+                                            "translatable": true
+                                        },
+                                        "type": "toggle",
+                                        "value": {
+                                            "_meta": {
+                                                "_type": "userPreferences",
+                                                "_path": "userPrefName",
+                                                "_value": {
+                                                    "userPrefName": "workspace.showRibbon"
+                                                },
+                                                "_default": {
+                                                    "userPrefName": "true"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "label": {
+                                            "message": "Show sidebar",
+                                            "translatable": true
+                                        },
+                                        "type": "toggle",
+                                        "value": {
+                                            "_meta": {
+                                                "_type": "userPreferences",
+                                                "_path": "userPrefName",
+                                                "_value": {
+                                                    "userPrefName": "workspace.showAgentAssist"
+                                                },
+                                                "_default": {
+                                                    "userPrefName": "true"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "label": {
+                                            "message": "Wrap list text",
+                                            "translatable": true
+                                        },
+                                        "type": "toggle",
+                                        "value": {
+                                            "_meta": {
+                                                "_type": "userPreferences",
+                                                "_path": "userPrefName",
+                                                "_value": {
+                                                    "userPrefName": "workspace.wrapListText"
+                                                },
+                                                "_default": {
+                                                    "userPrefName": "true"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "label": {
+                                            "message": "Notifications",
+                                            "translatable": true
+                                        },
+                                        "type": "divider"
+                                    },
+                                    {
+                                        "label": {
+                                            "message": "Show Banners",
+                                            "translatable": true
+                                        },
+                                        "type": "toggle",
+                                        "value": {
+                                            "_meta": {
+                                                "_type": "userPreferences",
+                                                "_path": "userPrefName",
+                                                "_value": {
+                                                    "userPrefName": "workspace.notifications.showPopups"
+                                                },
+                                                "_default": {
+                                                    "userPrefName": "true"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "label": {
+                                            "message": "Show Badge Count",
+                                            "translatable": true
+                                        },
+                                        "type": "toggle",
+                                        "value": {
+                                            "_meta": {
+                                                "_type": "userPreferences",
+                                                "_path": "userPrefName",
+                                                "_value": {
+                                                    "userPrefName": "workspace.notifications.showBadgeCount"
+                                                },
+                                                "_default": {
+                                                    "userPrefName": "true"
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "label": {
+                                "message": "Logout",
+                                "translatable": true
+                            },
+                            "type": "navigation",
+                            "position": 200,
+                            "value": {
+                                "value": {
+                                    "href": "/logout.do"
+                                },
+                                "type": "external"
+                            }
+                        }
+                    ]
+                }
+            }],
+            "secondaryItems": [
+
+            ]
+        }
+    },
+    "publicPage": {
+        "actionButtons": [
+
+        ]
+    }
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=ac8c04790e9041905c39b8ffa41c5ba4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</application>
+        <file_path/>
+        <instance_id>1010dfefdb9e1890f37acac5059619df</instance_id>
+        <instance_name>jbelote9demo</instance_name>
+        <name>sys_ux_page_property_ac8c04790e9041905c39b8ffa41c5ba4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Header Configuration</description><name>chrome_header</name><page display_value="EmployBridge Candidate Staffing Workspace">248c0479669041907333a02c914708a4</page><required_translations>[{"message":"Display Preferences","comment":""},{"message":"Show sidebar","comment":""},{"message":"Show ribbon","comment":""},{"message":"Notifications","comment":""},{"message":"Show Banners","comment":""},{"message":"Logout","comment":""},{"message":"Show Badge Count","comment":""},{"message":"Configure workspace","comment":""},{"message":"UserMenu","comment":""},{"message":"Wrap list text","comment":""},{"message":"Settings","comment":""}]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-12-08 17:22:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>ac8c04790e9041905c39b8ffa41c5ba4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package><sys_policy/><sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope><sys_update_name>sys_ux_page_property_ac8c04790e9041905c39b8ffa41c5ba4</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-12-08 17:22:50</sys_updated_on><type>json</type><unique_name>x_snc_employbrid_0.248c0479669041907333a02c914708a4.root.chrome_header</unique_name><value>{
+    "privatePage": {
+        "notificationsEnabled": true,
+        "searchEnabled": true,
+        "userPrefsEnabled": true,
+        "contextualConfigurationItems": {
+            "_roles": [
+                "workspace_admin"
+            ],
+            "enabled": true,
+            "position": 150
+        },
+        "globalTools": {
+            "collapsingMenuId": 0,
+            "primaryItems": [{
+                "label": "UserMenu",
+                "icon": "user",
+                "type": "menu",
+                "primaryDisplay": "icon",
+                "value": {
+                    "children": [{
+                            "_roles": [
+                                "workspace_admin"
+                            ],
+                            "label": {
+                                "message": "Configure workspace",
+                                "translatable": true
+                            },
+                            "type": "navigation",
+                            "position": 100,
+                            "primaryDisplay": "none",
+                            "value": {
+                                "type": "external",
+                                "opensWindow": "true",
+                                "value": {
+                                    "href": "/nav_to.do?uri=/sys_ux_app_config.do?sys_id=a48c0479989041909cb4a403a98e05a2"
+                                }
+                            }
+                        },
+                        {
+                            "label": {
+                                "message": "Settings",
+                                "translatable": true
+                            },
+                            "type": "menu",
+                            "position": 50,
+                            "value": {
+                                "children": [{
+                                        "label": {
+                                            "message": "Display Preferences",
+                                            "translatable": true
+                                        },
+                                        "type": "divider"
+                                    },
+                                    {
+                                        "label": {
+                                            "message": "Show ribbon",
+                                            "translatable": true
+                                        },
+                                        "type": "toggle",
+                                        "value": {
+                                            "_meta": {
+                                                "_type": "userPreferences",
+                                                "_path": "userPrefName",
+                                                "_value": {
+                                                    "userPrefName": "workspace.showRibbon"
+                                                },
+                                                "_default": {
+                                                    "userPrefName": "true"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "label": {
+                                            "message": "Show sidebar",
+                                            "translatable": true
+                                        },
+                                        "type": "toggle",
+                                        "value": {
+                                            "_meta": {
+                                                "_type": "userPreferences",
+                                                "_path": "userPrefName",
+                                                "_value": {
+                                                    "userPrefName": "workspace.showAgentAssist"
+                                                },
+                                                "_default": {
+                                                    "userPrefName": "true"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "label": {
+                                            "message": "Wrap list text",
+                                            "translatable": true
+                                        },
+                                        "type": "toggle",
+                                        "value": {
+                                            "_meta": {
+                                                "_type": "userPreferences",
+                                                "_path": "userPrefName",
+                                                "_value": {
+                                                    "userPrefName": "workspace.wrapListText"
+                                                },
+                                                "_default": {
+                                                    "userPrefName": "true"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "label": {
+                                            "message": "Notifications",
+                                            "translatable": true
+                                        },
+                                        "type": "divider"
+                                    },
+                                    {
+                                        "label": {
+                                            "message": "Show Banners",
+                                            "translatable": true
+                                        },
+                                        "type": "toggle",
+                                        "value": {
+                                            "_meta": {
+                                                "_type": "userPreferences",
+                                                "_path": "userPrefName",
+                                                "_value": {
+                                                    "userPrefName": "workspace.notifications.showPopups"
+                                                },
+                                                "_default": {
+                                                    "userPrefName": "true"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "label": {
+                                            "message": "Show Badge Count",
+                                            "translatable": true
+                                        },
+                                        "type": "toggle",
+                                        "value": {
+                                            "_meta": {
+                                                "_type": "userPreferences",
+                                                "_path": "userPrefName",
+                                                "_value": {
+                                                    "userPrefName": "workspace.notifications.showBadgeCount"
+                                                },
+                                                "_default": {
+                                                    "userPrefName": "true"
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "label": {
+                                "message": "Logout",
+                                "translatable": true
+                            },
+                            "type": "navigation",
+                            "position": 200,
+                            "value": {
+                                "value": {
+                                    "href": "/logout.do"
+                                },
+                                "type": "external"
+                            }
+                        }
+                    ]
+                }
+            }],
+            "secondaryItems": [
+
+            ]
+        }
+    },
+    "publicPage": {
+        "actionButtons": [
+
+        ]
+    }
+}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=ac8c04790e9041905c39b8ffa41c5ba4"/></record_update>]]></payload>
+        <payload_hash>-1334001313</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>3a7b80f5db904190b69ac6ab139619da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-08 17:22:50</sys_created_on>
+        <sys_id>9d8c4479db904190b69ac6ab1396196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d9b11ba8e0000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-08 17:22:50</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>958c44790b90419090ebbc3fef37706b</update_guid>
+        <update_guid_history>958c44790b90419090ebbc3fef37706b:-1334001313,d18c44792690419014cef4d8eba4cf6a:1258149171</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-14 14:50:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>0c498105f50f4b74a12f78c3292ffc04</sys_id>
+        <sys_metadata>ac8c04790e9041905c39b8ffa41c5ba4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_scope_delete display_value="">2731f423885d48f08be1fbf510fd0440</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_ac8c04790e9041905c39b8ffa41c5ba4</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_ac8c04790e9041905c39b8ffa41c5ba4">9d8c4479db904190b69ac6ab1396196b</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-14 14:50:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

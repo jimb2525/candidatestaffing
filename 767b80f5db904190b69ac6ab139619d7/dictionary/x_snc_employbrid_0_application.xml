@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Application" max_length="40" name="x_snc_employbrid_0_application" type="collection">
+        <element label="Candidate" max_length="32" name="candidate" reference="x_snc_employbrid_0_candidate" type="reference"/>
+        <element label="Client" max_length="32" name="client" reference="x_snc_employbrid_0_client" type="reference"/>
+        <element label="Position" max_length="32" name="position" reference="x_snc_employbrid_0_position" type="reference"/>
+        <element label="Requisition" max_length="32" name="requisition" reference="x_snc_employbrid_0_job_requisition" type="reference"/>
+    </element>
+</database>
