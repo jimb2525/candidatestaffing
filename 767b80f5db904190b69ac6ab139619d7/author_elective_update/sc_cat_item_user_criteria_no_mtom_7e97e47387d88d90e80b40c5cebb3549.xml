@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Apply">f297e47387d88d90e80b40c5cebb351f</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-15 00:29:01</sys_created_on>
+        <sys_id>7e97e47387d88d90e80b40c5cebb3549</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Apply.SNC External</sys_name>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_7e97e47387d88d90e80b40c5cebb3549</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-15 00:29:01</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</application>
+        <file_path/>
+        <instance_id>e3dd915bdbeef0100ae3ac44d4961951</instance_id>
+        <instance_name>jbelote14demo</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_7e97e47387d88d90e80b40c5cebb3549</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Apply">f297e47387d88d90e80b40c5cebb351f</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-12-15 00:29:01</sys_created_on><sys_id>7e97e47387d88d90e80b40c5cebb3549</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Apply.SNC External</sys_name><sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package><sys_policy/><sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_7e97e47387d88d90e80b40c5cebb3549</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-12-15 00:29:01</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>1835844500</payload_hash>
+        <record_name>Apply.SNC External</record_name>
+        <reverted_from/>
+        <source>900d9a2387333010e80b40c5cebb35ab</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-11-19 17:52:04</sys_created_on>
+        <sys_id>e1ecf8fb871801d0532b43f7cebb35db</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17d3953a9a00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>a1ecf8fba91801d048540a7e19046cdb</update_guid>
+        <update_guid_history>a1ecf8fba91801d048540a7e19046cdb:1835844500</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Apply.SNC External">a9ecf8fb871801d0532b43f7cebb35dd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-15 02:02:03</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>0303a33f7f1c4d18b57ed54ae9e3c840</sys_id>
+        <sys_metadata>7e97e47387d88d90e80b40c5cebb3549</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Apply.SNC External</sys_name>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_parent display_value="Apply">f297e47387d88d90e80b40c5cebb351f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_scope_delete display_value="">2731f423885d48f08be1fbf510fd0440</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_7e97e47387d88d90e80b40c5cebb3549</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_7e97e47387d88d90e80b40c5cebb3549">e1ecf8fb871801d0532b43f7cebb35db</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-15 02:02:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

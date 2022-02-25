@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Apply">f297e47387d88d90e80b40c5cebb351f</sc_cat_item>
+        <sc_catalog display_value="Candidate Service Catalog">57c76c7387d88d90e80b40c5cebb35a2</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-15 00:30:38</sys_created_on>
+        <sys_id>daf724b387d88d90e80b40c5cebb3562</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Candidate Service Catalog.Apply</sys_name>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_daf724b387d88d90e80b40c5cebb3562</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-15 00:30:38</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</application>
+        <file_path/>
+        <instance_id>e3dd915bdbeef0100ae3ac44d4961951</instance_id>
+        <instance_name>jbelote14demo</instance_name>
+        <name>sc_cat_item_catalog_daf724b387d88d90e80b40c5cebb3562</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Apply">f297e47387d88d90e80b40c5cebb351f</sc_cat_item><sc_catalog display_value="Candidate Service Catalog">57c76c7387d88d90e80b40c5cebb35a2</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-12-15 00:30:38</sys_created_on><sys_id>daf724b387d88d90e80b40c5cebb3562</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Candidate Service Catalog.Apply</sys_name><sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package><sys_policy/><sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope><sys_update_name>sc_cat_item_catalog_daf724b387d88d90e80b40c5cebb3562</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-12-15 00:30:38</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-168074775</payload_hash>
+        <record_name>Candidate Service Catalog.Apply</record_name>
+        <reverted_from/>
+        <source>283288bf87948d90e80b40c5cebb355f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-15 00:30:38</sys_created_on>
+        <sys_id>2ef724b387d88d90e80b40c5cebb3566</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17dbb7f8e150000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-15 00:30:38</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>52f724b3ebd88d9097397f7f00858e66</update_guid>
+        <update_guid_history>52f724b3ebd88d9097397f7f00858e66:-168074775</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Candidate Service Catalog.Apply">e2f724b387d88d90e80b40c5cebb3570</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-15 00:30:38</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>01510d4cefd2428081da02117f9c0400</sys_id>
+        <sys_metadata>daf724b387d88d90e80b40c5cebb3562</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Candidate Service Catalog.Apply</sys_name>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_parent display_value="Apply">f297e47387d88d90e80b40c5cebb351f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_scope_delete display_value="">2731f423885d48f08be1fbf510fd0440</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_daf724b387d88d90e80b40c5cebb3562</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_daf724b387d88d90e80b40c5cebb3562">2ef724b387d88d90e80b40c5cebb3566</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-15 00:30:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Record producer for: E2E Vendor Management-Loaders">0ddd35dc87380d50532b43f7cebb35cc</catalog_item>
+        <catalog_variable>load_experience_id</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-29 06:18:33</sys_created_on>
+        <sys_id>07ddf9dc87380d50532b43f7cebb3548</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_07ddf9dc87380d50532b43f7cebb3548</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-29 06:18:33</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide Load Experience ID">07ddf9dc87380d50532b43f7cebb3537</ui_policy>
+        <variable/>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</application>
+        <file_path/>
+        <instance_id>e3dd915bdbeef0100ae3ac44d4961951</instance_id>
+        <instance_name>jbelote14demo</instance_name>
+        <name>catalog_ui_policy_action_07ddf9dc87380d50532b43f7cebb3548</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Record producer for: E2E Vendor Management-Loaders">0ddd35dc87380d50532b43f7cebb35cc</catalog_item><catalog_variable>load_experience_id</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-29 06:18:33</sys_created_on><sys_id>07ddf9dc87380d50532b43f7cebb3548</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package><sys_policy/><sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope><sys_update_name>catalog_ui_policy_action_07ddf9dc87380d50532b43f7cebb3548</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-29 06:18:33</sys_updated_on><table/><ui_policy display_value="Hide Load Experience ID">07ddf9dc87380d50532b43f7cebb3537</ui_policy><variable/><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>2121217212</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d4a14df3875801d0532b43f7cebb353d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-29 06:18:33</sys_created_on>
+        <sys_id>97ddf9dc87380d50532b43f7cebb354c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e04d71b7c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-29 06:18:33</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>9fddf9dc2b380d501784aa5ac03f0d4b</update_guid>
+        <update_guid_history>9fddf9dc2b380d501784aa5ac03f0d4b:2121217212</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">dbddf9dc87380d50532b43f7cebb3585</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-29 06:18:33</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>0efb05df1da842bb84b93b247c9772a1</sys_id>
+        <sys_metadata>07ddf9dc87380d50532b43f7cebb3548</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_scope_delete display_value="">2731f423885d48f08be1fbf510fd0440</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_07ddf9dc87380d50532b43f7cebb3548</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_07ddf9dc87380d50532b43f7cebb3548">97ddf9dc87380d50532b43f7cebb354c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-29 06:18:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

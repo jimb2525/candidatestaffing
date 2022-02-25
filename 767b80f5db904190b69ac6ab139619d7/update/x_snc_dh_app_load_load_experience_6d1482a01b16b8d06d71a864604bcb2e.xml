@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_dh_app_load_load_experience">
+    <x_snc_dh_app_load_load_experience action="INSERT_OR_UPDATE">
+        <description/>
+        <load_flow_last_updated/>
+        <load_subflow/>
+        <load_updated_status>QUEUED</load_updated_status>
+        <name/>
+        <record_producer display_value="Record producer for: null">776f54d887384950e80b40c5cebb3565</record_producer>
+        <sys_class_name>x_snc_dh_app_load_load_experience</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-28 23:25:59</sys_created_on>
+        <sys_id>6d1482a01b16b8d06d71a864604bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>x_snc_dh_app_load_load_experience_6d1482a01b16b8d06d71a864604bcb2e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-28 23:25:59</sys_updated_on>
+        <unload_flow_last_updated/>
+        <unload_subflow/>
+        <unload_update_status>6</unload_update_status>
+    </x_snc_dh_app_load_load_experience>
+</record_update>

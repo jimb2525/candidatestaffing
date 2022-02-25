@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Job Preferences">60d63795878dc510e80b40c5cebb350f</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>stuart.williams</sys_created_by>
+        <sys_created_on>2022-01-14 04:08:20</sys_created_on>
+        <sys_id>c089b799878dc510e80b40c5cebb35b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Job Preferences</sys_name>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>sc_cat_item_category_c089b799878dc510e80b40c5cebb35b2</sys_update_name>
+        <sys_updated_by>stuart.williams</sys_updated_by>
+        <sys_updated_on>2022-01-14 04:08:20</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</application>
+        <file_path/>
+        <instance_id>e3dd915bdbeef0100ae3ac44d4961951</instance_id>
+        <instance_name>jbelote14demo</instance_name>
+        <name>sc_cat_item_category_c089b799878dc510e80b40c5cebb35b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Job Preferences">60d63795878dc510e80b40c5cebb350f</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>stuart.williams</sys_created_by><sys_created_on>2022-01-14 04:08:20</sys_created_on><sys_id>c089b799878dc510e80b40c5cebb35b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Can We Help You?.Job Preferences</sys_name><sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package><sys_policy/><sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope><sys_update_name>sc_cat_item_category_c089b799878dc510e80b40c5cebb35b2</sys_update_name><sys_updated_by>stuart.williams</sys_updated_by><sys_updated_on>2022-01-14 04:08:20</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>848801149</payload_hash>
+        <record_name>Can We Help You?.Job Preferences</record_name>
+        <reverted_from/>
+        <source>4ce7b5d98741c510e80b40c5cebb35c5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>stuart.williams</sys_created_by>
+        <sys_created_on>2022-01-14 04:08:20</sys_created_on>
+        <sys_id>0c89b799878dc510e80b40c5cebb35ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e56c5a6cd0000001</sys_recorded_at>
+        <sys_updated_by>stuart.williams</sys_updated_by>
+        <sys_updated_on>2022-01-14 04:08:20</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>4089b799fb8dc510da9a2b57f94d2dca</update_guid>
+        <update_guid_history>4089b799fb8dc510da9a2b57f94d2dca:848801149</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.Job Preferences">5f5bf75d878dc510e80b40c5cebb35a1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>stuart.williams</sys_created_by>
+        <sys_created_on>2022-01-14 04:16:29</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>73e0fbf9e5234b94ba0c4d628a9f63c4</sys_id>
+        <sys_metadata>c089b799878dc510e80b40c5cebb35b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Job Preferences</sys_name>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_scope_delete display_value="">2731f423885d48f08be1fbf510fd0440</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_c089b799878dc510e80b40c5cebb35b2</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_c089b799878dc510e80b40c5cebb35b2">0c89b799878dc510e80b40c5cebb35ca</sys_update_version>
+        <sys_updated_by>stuart.williams</sys_updated_by>
+        <sys_updated_on>2022-01-14 04:16:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

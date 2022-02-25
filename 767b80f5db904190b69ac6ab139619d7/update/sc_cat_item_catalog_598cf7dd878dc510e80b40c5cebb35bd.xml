@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Job Preferences">60d63795878dc510e80b40c5cebb350f</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>stuart.williams</sys_created_by>
+        <sys_created_on>2022-01-14 04:21:32</sys_created_on>
+        <sys_id>598cf7dd878dc510e80b40c5cebb35bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Job Preferences</sys_name>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_598cf7dd878dc510e80b40c5cebb35bd</sys_update_name>
+        <sys_updated_by>stuart.williams</sys_updated_by>
+        <sys_updated_on>2022-01-14 04:21:32</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

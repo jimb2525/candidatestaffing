@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_pa_demo_data_element_map">
+    <x_snc_pa_demo_data_element_map action="INSERT_OR_UPDATE">
+        <breakdown display_value="Assigned To">ed5f455487f08950e80b40c5cebb35ba</breakdown>
+        <element_sys_id>ceacf036b3120010ed7fc9c316a8dc42</element_sys_id>
+        <name>Created 2021-10-11 18:34:29</name>
+        <order>26</order>
+        <sys_class_name>x_snc_pa_demo_data_element_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-29 02:55:17</sys_created_on>
+        <sys_id>715f855487f08950e80b40c5cebb356f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Created 2021-10-11 18:34:29</sys_name>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>x_snc_pa_demo_data_element_map_715f855487f08950e80b40c5cebb356f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-29 02:55:17</sys_updated_on>
+    </x_snc_pa_demo_data_element_map>
+</record_update>

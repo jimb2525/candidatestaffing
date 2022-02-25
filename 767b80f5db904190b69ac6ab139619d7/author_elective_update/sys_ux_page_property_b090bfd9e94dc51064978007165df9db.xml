@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">e090bfd9874dc510e80b40c5cebb35b2</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Landing Page">fc90bfd9fd4dc5102bf72420f88e5ad0</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-14 03:29:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>b090bfd9e94dc51064978007165df9db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>sys_ux_page_property_b090bfd9e94dc51064978007165df9db</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-14 03:29:24</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_employbrid_0.e090bfd9874dc510e80b40c5cebb35b2.route.chrome_header.fc90bfd9fd4dc5102bf72420f88e5ad0</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</application>
+        <file_path/>
+        <instance_id>e3dd915bdbeef0100ae3ac44d4961951</instance_id>
+        <instance_name>jbelote14demo</instance_name>
+        <name>sys_ux_page_property_b090bfd9e94dc51064978007165df9db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">e090bfd9874dc510e80b40c5cebb35b2</page><required_translations>[]</required_translations><route display_value="Landing Page">fc90bfd9fd4dc5102bf72420f88e5ad0</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-01-14 03:29:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>b090bfd9e94dc51064978007165df9db</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package><sys_policy/><sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope><sys_update_name>sys_ux_page_property_b090bfd9e94dc51064978007165df9db</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-01-14 03:29:24</sys_updated_on><type>json</type><unique_name>x_snc_employbrid_0.e090bfd9874dc510e80b40c5cebb35b2.route.chrome_header.fc90bfd9fd4dc5102bf72420f88e5ad0</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-910654458</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>5deecd0087200110532b43f7cebb35cd</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-12-15 21:59:10</sys_created_on>
+        <sys_id>d811335d874dc510e80b40c5cebb3509</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17dc01b3bb00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>9811335d344dc510c6f55214206d2a09</update_guid>
+        <update_guid_history>9811335d344dc510c6f55214206d2a09:-910654458</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>stuart.williams</sys_created_by>
+        <sys_created_on>2022-01-14 03:31:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>29c95f3e03294419923d49e2635e79d9</sys_id>
+        <sys_metadata>b090bfd9e94dc51064978007165df9db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_scope_delete display_value="">2731f423885d48f08be1fbf510fd0440</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_b090bfd9e94dc51064978007165df9db</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_b090bfd9e94dc51064978007165df9db">d811335d874dc510e80b40c5cebb3509</sys_update_version>
+        <sys_updated_by>stuart.williams</sys_updated_by>
+        <sys_updated_on>2022-01-14 03:31:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

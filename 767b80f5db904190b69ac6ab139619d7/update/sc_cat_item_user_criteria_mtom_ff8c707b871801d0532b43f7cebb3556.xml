@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Apply">f297e47387d88d90e80b40c5cebb351f</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-15 02:00:34</sys_created_on>
+        <sys_id>ff8c707b871801d0532b43f7cebb3556</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Apply.Candidates</sys_name>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_ff8c707b871801d0532b43f7cebb3556</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-15 02:00:34</sys_updated_on>
+        <user_criteria display_value="Candidates">9a1c74bb871801d0532b43f7cebb3598</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

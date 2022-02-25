@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 18:57:42</sys_created_on>
+        <sys_id>36883a2487a8c110e80b40c5cebb35de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_employbrid_0_application_data.snc_internal</sys_name>
+        <sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_security_acl display_value="x_snc_employbrid_0_application_data">4b68f62487a8c110e80b40c5cebb3560</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_36883a2487a8c110e80b40c5cebb35de</sys_update_name>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 18:57:42</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>f2883eec8768c110e80b40c5cebb3551</transaction_id>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</application>
+        <file_path/>
+        <instance_id>e3dd915bdbeef0100ae3ac44d4961951</instance_id>
+        <instance_name>jbelote14demo</instance_name>
+        <name>sys_security_acl_role_36883a2487a8c110e80b40c5cebb35de</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>dan.munk</sys_created_by><sys_created_on>2021-12-17 18:57:42</sys_created_on><sys_id>36883a2487a8c110e80b40c5cebb35de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_employbrid_0_application_data.snc_internal</sys_name><sys_package display_value="EmployBridge Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package><sys_policy/><sys_scope display_value="EmployBridge Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope><sys_security_acl display_value="x_snc_employbrid_0_application_data">4b68f62487a8c110e80b40c5cebb3560</sys_security_acl><sys_update_name>sys_security_acl_role_36883a2487a8c110e80b40c5cebb35de</sys_update_name><sys_updated_by>dan.munk</sys_updated_by><sys_updated_on>2021-12-17 18:57:42</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role><transaction_id>f2883eec8768c110e80b40c5cebb3551</transaction_id></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>386124454</payload_hash>
+        <record_name>x_snc_employbrid_0_application_data.snc_internal</record_name>
+        <reverted_from/>
+        <source>5deecd0087200110532b43f7cebb35cd</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-12-15 21:59:10</sys_created_on>
+        <sys_id>96a87e2487a8c110e80b40c5cebb358a</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17dc01b3bb00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>56a87e2495a8c1107bf5285f81189d8a</update_guid>
+        <update_guid_history>56a87e2495a8c1107bf5285f81189d8a:386124454</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_employbrid_0_application_data.snc_internal">1ea87e2487a8c110e80b40c5cebb358e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 18:58:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>4096bd693e5d4300a4a70ad3b9c963c9</sys_id>
+        <sys_metadata>36883a2487a8c110e80b40c5cebb35de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_employbrid_0_application_data.snc_internal</sys_name>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_parent display_value="x_snc_employbrid_0_application_data">4b68f62487a8c110e80b40c5cebb3560</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_scope_delete display_value="">2731f423885d48f08be1fbf510fd0440</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_36883a2487a8c110e80b40c5cebb35de</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_36883a2487a8c110e80b40c5cebb35de">96a87e2487a8c110e80b40c5cebb358a</sys_update_version>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 18:58:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

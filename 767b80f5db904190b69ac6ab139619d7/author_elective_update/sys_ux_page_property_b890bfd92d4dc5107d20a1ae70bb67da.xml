@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>enable_login_modal</name>
+        <page display_value="">e090bfd9874dc510e80b40c5cebb35b2</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-14 03:29:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>b890bfd92d4dc5107d20a1ae70bb67da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>enable_login_modal</sys_name>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>sys_ux_page_property_b890bfd92d4dc5107d20a1ae70bb67da</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-14 03:29:23</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_employbrid_0.e090bfd9874dc510e80b40c5cebb35b2.root.enable_login_modal</unique_name>
+        <value>{&#13;
+	"enabled":false&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</application>
+        <file_path/>
+        <instance_id>e3dd915bdbeef0100ae3ac44d4961951</instance_id>
+        <instance_name>jbelote14demo</instance_name>
+        <name>sys_ux_page_property_b890bfd92d4dc5107d20a1ae70bb67da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>enable_login_modal</name><page display_value="">e090bfd9874dc510e80b40c5cebb35b2</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-01-14 03:29:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>b890bfd92d4dc5107d20a1ae70bb67da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>enable_login_modal</sys_name><sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package><sys_policy/><sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope><sys_update_name>sys_ux_page_property_b890bfd92d4dc5107d20a1ae70bb67da</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-01-14 03:29:23</sys_updated_on><type>json</type><unique_name>x_snc_employbrid_0.e090bfd9874dc510e80b40c5cebb35b2.root.enable_login_modal</unique_name><value>{&#13;
+	"enabled":false&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1251524043</payload_hash>
+        <record_name>enable_login_modal</record_name>
+        <reverted_from/>
+        <source>5deecd0087200110532b43f7cebb35cd</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-12-15 21:59:10</sys_created_on>
+        <sys_id>5411335d874dc510e80b40c5cebb350f</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17dc01b3bb00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>1411335d224dc510f61bb2566213fb0f</update_guid>
+        <update_guid_history>1411335d224dc510f61bb2566213fb0f:-1251524043</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>stuart.williams</sys_created_by>
+        <sys_created_on>2022-01-14 03:31:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>005dd780019f47a080a60f54d7089a40</sys_id>
+        <sys_metadata>b890bfd92d4dc5107d20a1ae70bb67da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>enable_login_modal</sys_name>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_scope_delete display_value="">2731f423885d48f08be1fbf510fd0440</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_b890bfd92d4dc5107d20a1ae70bb67da</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_b890bfd92d4dc5107d20a1ae70bb67da">5411335d874dc510e80b40c5cebb350f</sys_update_version>
+        <sys_updated_by>stuart.williams</sys_updated_by>
+        <sys_updated_on>2022-01-14 03:31:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

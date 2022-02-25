@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Application Data" max_length="40" name="x_snc_employbrid_0_application_data" sizeclass="7" type="collection">
+        <element choice="1" label="Education" max_length="40" name="education" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High School" sequence="10" value="High School"/>
+                <element inactive_on_update="false" label="Some College" sequence="20" value="Some College"/>
+                <element inactive_on_update="false" label="Bachelors Degree" sequence="30" value="Bachelors Degree"/>
+                <element inactive_on_update="false" label="Masters Degree" sequence="40" value="Masters Degree"/>
+                <element inactive_on_update="false" label="Associates Degree" sequence="50" value="Associates Degree"/>
+            </choice>
+        </element>
+        <element label="Email" max_length="100" name="email" type="string"/>
+        <element label="First Name" max_length="100" name="first_name" type="string"/>
+        <element choice="1" label="Job Preference" max_length="40" name="job_preference" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cashier" sequence="10" value="Cashier"/>
+                <element inactive_on_update="false" label="Clothing" sequence="20" value="Clothing"/>
+                <element inactive_on_update="false" label="Team Lead" sequence="30" value="Team Lead"/>
+            </choice>
+        </element>
+        <element label="Last Name" max_length="100" name="last_name" type="string"/>
+        <element label="Name" max_length="200" name="name" type="string"/>
+        <element label="Position" max_length="32" name="position" reference="x_snc_employbrid_0_position" type="reference"/>
+        <element choice="1" label="Shift Preference" max_length="40" name="shift_preference" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="First Shift" sequence="10" value="First Shift"/>
+                <element inactive_on_update="false" label="Second Shift" sequence="20" value="Second Shift"/>
+                <element inactive_on_update="false" label="Third Shift" sequence="30" value="Third Shift"/>
+            </choice>
+        </element>
+        <element label="Years of Experience" max_length="40" name="years_of_experience" type="integer"/>
+    </element>
+</database>

@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-rome-06-23-2021__patch4-hotfix1b-01-19-2022_02-08-2022_1831.zip</compiler_build>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>merge_application_data</internal_name>
+        <label_cache>[{"name":"Created_1.current.job_preference","label":"Trigger➛Application Data Record➛Job Preference","reference":"","reference_display":"Job Preference","type":"choice","base_type":"choice","parent_table_name":"x_snc_employbrid_0_application_data","column_name":"job_preference"},{"name":"Created_1.current.education","label":"Trigger➛Application Data Record➛Education","reference":"","reference_display":"Education","type":"choice","base_type":"choice","parent_table_name":"x_snc_employbrid_0_application_data","column_name":"education"},{"name":"Created_1.current.shift_preference","label":"Trigger➛Application Data Record➛Shift Preference","reference":"","reference_display":"Shift Preference","type":"choice","base_type":"choice","parent_table_name":"x_snc_employbrid_0_application_data","column_name":"shift_preference"},{"name":"Created_1.current.years_of_experience","label":"Trigger➛Application Data Record➛Years of Experience","reference":"","reference_display":"Years of Experience","type":"integer","base_type":"integer","parent_table_name":"x_snc_employbrid_0_application_data","column_name":"years_of_experience"},{"name":"Created_1.current.position","label":"Trigger➛Application Data Record➛Position","reference":"x_snc_employbrid_0_position","reference_display":"Position","type":"reference","base_type":"reference","parent_table_name":"x_snc_employbrid_0_application_data","column_name":"position"},{"name":"643b4bd7-5c74-4abb-8278-74b717d7cbf1.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"643b4bd7-5c74-4abb-8278-74b717d7cbf1.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"643b4bd7-5c74-4abb-8278-74b717d7cbf1.table_name","label":"2➛Application Table","reference":"x_snc_employbrid_0_application","reference_display":"Application","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"643b4bd7-5c74-4abb-8278-74b717d7cbf1.record","label":"2➛Application Record","reference":"x_snc_employbrid_0_application","reference_display":"Application","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4ee75ac0-28c1-43c6-8bb2-46bbedfb3cc2.record","label":"1➛Candidate Record","reference":"x_snc_employbrid_0_candidate","reference_display":"Candidate","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4ee75ac0-28c1-43c6-8bb2-46bbedfb3cc2.table_name","label":"1➛Candidate Table","reference":"x_snc_employbrid_0_candidate","reference_display":"Candidate","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4ee75ac0-28c1-43c6-8bb2-46bbedfb3cc2.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4ee75ac0-28c1-43c6-8bb2-46bbedfb3cc2.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.first_name","label":"Trigger➛Application Data Record➛First Name","reference":"","reference_display":"First Name","type":"string","base_type":"string","parent_table_name":"x_snc_employbrid_0_application_data","column_name":"first_name"},{"name":"Created_1.current.last_name","label":"Trigger➛Application Data Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_snc_employbrid_0_application_data","column_name":"last_name"},{"name":"Created_1.current.email","label":"Trigger➛Application Data Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_snc_employbrid_0_application_data","column_name":"email"}]</label_cache>
+        <master_snapshot>081a0fd887e88110532b43f7cebb351b</master_snapshot>
+        <name>Merge Application Data</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>7c8d0f50872c8110532b43f7cebb357c</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:31:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28190b5887e88110532b43f7cebb35ca</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Merge Application Data</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name>sys_hub_flow_28190b5887e88110532b43f7cebb35ca</sys_update_name>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:50:51</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=28190b5887e88110532b43f7cebb35ca"/>
+    <sys_variable_value action="delete_multiple" query="document_key=28190b5887e88110532b43f7cebb35ca"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_employbrid_0_application_data">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:50:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c8d0f50872c8110532b43f7cebb357c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:50:50</sys_updated_on>
+        <table>x_snc_employbrid_0_application_data</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"388d0f50872c8110532b43f7cebb357d","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>28190b5887e88110532b43f7cebb35ca</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:50:50</sys_created_on>
+        <sys_id>388d0f50872c8110532b43f7cebb357d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:50:50</sys_updated_on>
+        <trigger display_value="">7c8d0f50872c8110532b43f7cebb357c</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>388d0f50872c8110532b43f7cebb357d</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:50:50</sys_created_on>
+        <sys_id>308d0f50872c8110532b43f7cebb357e</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=28190b5887e88110532b43f7cebb35ca^sys_idNOT IN388d0f50872c8110532b43f7cebb357d"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=28190b5887e88110532b43f7cebb35ca^sys_idNOT IN93998b9887e88110532b43f7cebb3502"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Merge Application Data">28190b5887e88110532b43f7cebb35ca</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:33:49</sys_created_on>
+        <sys_id>93998b9887e88110532b43f7cebb3502</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:50:51</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=93998b9887e88110532b43f7cebb3502"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>93998b9887e88110532b43f7cebb3502</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:33:49</sys_created_on>
+        <sys_id>23998b9887e88110532b43f7cebb3504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:33:49</sys_updated_on>
+        <value>x_snc_employbrid_0_application_data</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>93998b9887e88110532b43f7cebb3502</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:33:49</sys_created_on>
+        <sys_id>67998b9887e88110532b43f7cebb3503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:33:49</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=28190b5887e88110532b43f7cebb35ca^sys_idNOT INe4190b5887e88110532b43f7cebb35cd"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>28190b5887e88110532b43f7cebb35ca</id>
+        <name>Merge Application Data</name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:31:26</sys_created_on>
+        <sys_id>e4190b5887e88110532b43f7cebb35cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:31:26</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=28190b5887e88110532b43f7cebb35ca^sys_idNOT IN57994b9887e88110532b43f7cebb35e4,5f994b9887e88110532b43f7cebb35f9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Merge Application Data">28190b5887e88110532b43f7cebb35ca</model>
+        <model_id>28190b5887e88110532b43f7cebb35ca</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_28190b5887e88110532b43f7cebb35ca</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:33:49</sys_created_on>
+        <sys_id>57994b9887e88110532b43f7cebb35e4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:50:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Merge Application Data">28190b5887e88110532b43f7cebb35ca</model>
+        <model_id>28190b5887e88110532b43f7cebb35ca</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_28190b5887e88110532b43f7cebb35ca</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:33:49</sys_created_on>
+        <sys_id>5f994b9887e88110532b43f7cebb35f9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:50:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=28190b5887e88110532b43f7cebb35ca^sys_idNOT IN23998b9887e88110532b43f7cebb3509,4af9c3d887e88110532b43f7cebb35a7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Merge Application Data">28190b5887e88110532b43f7cebb35ca</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:33:49</sys_created_on>
+        <sys_id>23998b9887e88110532b43f7cebb3509</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-02-24 17:06:53</sys_updated_on>
+        <ui_id>4ee75ac0-28c1-43c6-8bb2-46bbedfb3cc2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=23998b9887e88110532b43f7cebb3509"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>23998b9887e88110532b43f7cebb3509</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:33:50</sys_created_on>
+        <sys_id>2f998b9887e88110532b43f7cebb350b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:33:50</sys_updated_on>
+        <value>x_snc_employbrid_0_candidate</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=23998b9887e88110532b43f7cebb3509"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>23998b9887e88110532b43f7cebb3509</id>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:33:50</sys_created_on>
+        <sys_id>63998b9887e88110532b43f7cebb350b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:33:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>23998b9887e88110532b43f7cebb3509</id>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:33:50</sys_created_on>
+        <sys_id>ab998b9887e88110532b43f7cebb350b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:50:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>first_name={{Created_1.current.first_name}}^last_name={{Created_1.current.last_name}}^name={{Created_1.current.first_name}} {{Created_1.current.last_name}}^email_address={{Created_1.current.email}}^years_of_experience={{Created_1.current.years_of_experience}}^shift_preference={{Created_1.current.shift_preference}}^education={{Created_1.current.education}}^job_preference={{Created_1.current.job_preference}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Merge Application Data">28190b5887e88110532b43f7cebb35ca</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:22</sys_created_on>
+        <sys_id>4af9c3d887e88110532b43f7cebb35a7</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-02-24 17:06:53</sys_updated_on>
+        <ui_id>643b4bd7-5c74-4abb-8278-74b717d7cbf1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4af9c3d887e88110532b43f7cebb35a7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4af9c3d887e88110532b43f7cebb35a7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:22</sys_created_on>
+        <sys_id>4ef9c3d887e88110532b43f7cebb35a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:35:22</sys_updated_on>
+        <value>x_snc_employbrid_0_application</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4af9c3d887e88110532b43f7cebb35a7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>4af9c3d887e88110532b43f7cebb35a7</id>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:22</sys_created_on>
+        <sys_id>0af9c3d887e88110532b43f7cebb35a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:35:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>4af9c3d887e88110532b43f7cebb35a7</id>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:22</sys_created_on>
+        <sys_id>caf9c3d887e88110532b43f7cebb35a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:35:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>candidate={{4ee75ac0-28c1-43c6-8bb2-46bbedfb3cc2.record}}^position={{Created_1.current.position}}</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_28190b5887e88110532b43f7cebb35ca^sys_idNOT IN53994b9887e88110532b43f7cebb35ff,57994b9887e88110532b43f7cebb35f8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_28190b5887e88110532b43f7cebb35ca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:33:49</sys_created_on>
+        <sys_id>53994b9887e88110532b43f7cebb35ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:33:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_28190b5887e88110532b43f7cebb35ca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:33:49</sys_created_on>
+        <sys_id>57994b9887e88110532b43f7cebb35f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:33:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=28190b5887e88110532b43f7cebb35ca^sys_idNOT IN9c1a0fd887e88110532b43f7cebb3577"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"9c1a0fd887e88110532b43f7cebb3577","name":"plan","plan_signature":null}}</plan>
+        <plan_id>28190b5887e88110532b43f7cebb35ca</plan_id>
+        <snapshot>8ce47d7e87b94910532b43f7cebb3598</snapshot>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9c1a0fd887e88110532b43f7cebb3577</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:50:50</sys_updated_on>
+        <trigger display_value="">7c8d0f50872c8110532b43f7cebb357c</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>merge_application_data</internal_name>
+        <label_cache>[{"name":"Created_1.current.job_preference","label":"Trigger➛Application Data Record➛Job Preference","reference":"","reference_display":"Job Preference","type":"choice","base_type":"choice","parent_table_name":"x_snc_employbrid_0_application_data","column_name":"job_preference"},{"name":"Created_1.current.education","label":"Trigger➛Application Data Record➛Education","reference":"","reference_display":"Education","type":"choice","base_type":"choice","parent_table_name":"x_snc_employbrid_0_application_data","column_name":"education"},{"name":"Created_1.current.shift_preference","label":"Trigger➛Application Data Record➛Shift Preference","reference":"","reference_display":"Shift Preference","type":"choice","base_type":"choice","parent_table_name":"x_snc_employbrid_0_application_data","column_name":"shift_preference"},{"name":"Created_1.current.years_of_experience","label":"Trigger➛Application Data Record➛Years of Experience","reference":"","reference_display":"Years of Experience","type":"integer","base_type":"integer","parent_table_name":"x_snc_employbrid_0_application_data","column_name":"years_of_experience"},{"name":"Created_1.current.position","label":"Trigger➛Application Data Record➛Position","reference":"x_snc_employbrid_0_position","reference_display":"Position","type":"reference","base_type":"reference","parent_table_name":"x_snc_employbrid_0_application_data","column_name":"position"},{"name":"643b4bd7-5c74-4abb-8278-74b717d7cbf1.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"643b4bd7-5c74-4abb-8278-74b717d7cbf1.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"643b4bd7-5c74-4abb-8278-74b717d7cbf1.table_name","label":"2➛Application Table","reference":"x_snc_employbrid_0_application","reference_display":"Application","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"643b4bd7-5c74-4abb-8278-74b717d7cbf1.record","label":"2➛Application Record","reference":"x_snc_employbrid_0_application","reference_display":"Application","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4ee75ac0-28c1-43c6-8bb2-46bbedfb3cc2.record","label":"1➛Candidate Record","reference":"x_snc_employbrid_0_candidate","reference_display":"Candidate","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4ee75ac0-28c1-43c6-8bb2-46bbedfb3cc2.table_name","label":"1➛Candidate Table","reference":"x_snc_employbrid_0_candidate","reference_display":"Candidate","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4ee75ac0-28c1-43c6-8bb2-46bbedfb3cc2.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4ee75ac0-28c1-43c6-8bb2-46bbedfb3cc2.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.first_name","label":"Trigger➛Application Data Record➛First Name","reference":"","reference_display":"First Name","type":"string","base_type":"string","parent_table_name":"x_snc_employbrid_0_application_data","column_name":"first_name"},{"name":"Created_1.current.last_name","label":"Trigger➛Application Data Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_snc_employbrid_0_application_data","column_name":"last_name"},{"name":"Created_1.current.email","label":"Trigger➛Application Data Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_snc_employbrid_0_application_data","column_name":"email"}]</label_cache>
+        <master>true</master>
+        <name>Merge Application Data</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Merge Application Data">28190b5887e88110532b43f7cebb35ca</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>081a0fd887e88110532b43f7cebb351b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:50:50</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=081a0fd887e88110532b43f7cebb351b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=081a0fd887e88110532b43f7cebb351b"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=081a0fd887e88110532b43f7cebb351b^sys_idNOT IN081a0fd887e88110532b43f7cebb3561"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Merge Application Data">081a0fd887e88110532b43f7cebb351b</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:47</sys_created_on>
+        <sys_id>081a0fd887e88110532b43f7cebb3561</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:50:51</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=081a0fd887e88110532b43f7cebb3561"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>081a0fd887e88110532b43f7cebb3561</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:47</sys_created_on>
+        <sys_id>041a0fd887e88110532b43f7cebb3563</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:35:47</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>081a0fd887e88110532b43f7cebb3561</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:47</sys_created_on>
+        <sys_id>c41a0fd887e88110532b43f7cebb3563</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:35:47</sys_updated_on>
+        <value>x_snc_employbrid_0_application_data</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=081a0fd887e88110532b43f7cebb351b^sys_idNOT IN8c1a0fd887e88110532b43f7cebb351c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>081a0fd887e88110532b43f7cebb351b</id>
+        <name>Merge Application Data</name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:46</sys_created_on>
+        <sys_id>8c1a0fd887e88110532b43f7cebb351c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:35:46</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=081a0fd887e88110532b43f7cebb351b^sys_idNOT IN841a0fd887e88110532b43f7cebb3539,c01a0fd887e88110532b43f7cebb351e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Merge Application Data">081a0fd887e88110532b43f7cebb351b</model>
+        <model_id>081a0fd887e88110532b43f7cebb351b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_081a0fd887e88110532b43f7cebb351b</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:46</sys_created_on>
+        <sys_id>841a0fd887e88110532b43f7cebb3539</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:50:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Merge Application Data">081a0fd887e88110532b43f7cebb351b</model>
+        <model_id>081a0fd887e88110532b43f7cebb351b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_081a0fd887e88110532b43f7cebb351b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:46</sys_created_on>
+        <sys_id>c01a0fd887e88110532b43f7cebb351e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:50:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=081a0fd887e88110532b43f7cebb351b^sys_idNOT IN001a0fd887e88110532b43f7cebb3560,cc1a0fd887e88110532b43f7cebb3559"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Merge Application Data">081a0fd887e88110532b43f7cebb351b</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:47</sys_created_on>
+        <sys_id>001a0fd887e88110532b43f7cebb3560</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:50:50</sys_updated_on>
+        <ui_id>643b4bd7-5c74-4abb-8278-74b717d7cbf1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=001a0fd887e88110532b43f7cebb3560"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>001a0fd887e88110532b43f7cebb3560</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:47</sys_created_on>
+        <sys_id>041a0fd887e88110532b43f7cebb3561</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:35:47</sys_updated_on>
+        <value>x_snc_employbrid_0_application</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=001a0fd887e88110532b43f7cebb3560"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>001a0fd887e88110532b43f7cebb3560</id>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:47</sys_created_on>
+        <sys_id>cc1a0fd887e88110532b43f7cebb3560</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:35:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>001a0fd887e88110532b43f7cebb3560</id>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:47</sys_created_on>
+        <sys_id>801a0fd887e88110532b43f7cebb3561</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:35:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>candidate={{4ee75ac0-28c1-43c6-8bb2-46bbedfb3cc2.record}}^position={{Created_1.current.position}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Merge Application Data">081a0fd887e88110532b43f7cebb351b</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:47</sys_created_on>
+        <sys_id>cc1a0fd887e88110532b43f7cebb3559</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:50:50</sys_updated_on>
+        <ui_id>4ee75ac0-28c1-43c6-8bb2-46bbedfb3cc2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cc1a0fd887e88110532b43f7cebb3559"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cc1a0fd887e88110532b43f7cebb3559</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:47</sys_created_on>
+        <sys_id>0c1a0fd887e88110532b43f7cebb355b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:35:47</sys_updated_on>
+        <value>x_snc_employbrid_0_candidate</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cc1a0fd887e88110532b43f7cebb3559"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>cc1a0fd887e88110532b43f7cebb3559</id>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:47</sys_created_on>
+        <sys_id>c41a0fd887e88110532b43f7cebb355b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:35:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>cc1a0fd887e88110532b43f7cebb3559</id>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:47</sys_created_on>
+        <sys_id>881a0fd887e88110532b43f7cebb355b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:50:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>first_name={{Created_1.current.first_name}}^last_name={{Created_1.current.last_name}}^name={{Created_1.current.first_name}} {{Created_1.current.last_name}}^email_address={{Created_1.current.email}}^years_of_experience={{Created_1.current.years_of_experience}}^shift_preference={{Created_1.current.shift_preference}}^education={{Created_1.current.education}}^job_preference={{Created_1.current.job_preference}}</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_081a0fd887e88110532b43f7cebb351b^sys_idNOT IN441a0fd887e88110532b43f7cebb3535,c01a0fd887e88110532b43f7cebb354d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_081a0fd887e88110532b43f7cebb351b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:46</sys_created_on>
+        <sys_id>441a0fd887e88110532b43f7cebb3535</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:35:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_081a0fd887e88110532b43f7cebb351b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-12-17 01:35:47</sys_created_on>
+        <sys_id>c01a0fd887e88110532b43f7cebb354d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Staffing" source="x_snc_employbrid_0">767b80f5db904190b69ac6ab139619d7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Staffing">767b80f5db904190b69ac6ab139619d7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-12-17 01:35:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>28190b5887e88110532b43f7cebb35ca</sys_id>
+        <latest_snapshot>081a0fd887e88110532b43f7cebb351b</latest_snapshot>
+    </sys_hub_flow>
+</record_update>
